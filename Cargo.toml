@@ -1,0 +1,11 @@
+[package]
+edition = "2018"
+name = "sync_file"
+version = "2.4.0"
+
+[dependencies]
+ssh2 = "0.8.3"
+serde = "1.0.126"
+serde_derive = "1.0.126"
+toml = "0.5.8"
+log = "0.4.14"

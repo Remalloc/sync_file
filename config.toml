@@ -1,0 +1,13 @@
+[host]
+remote_ip = "ip:host"
+username = "username"
+pubkey = "path"
+privatekey = "path"
+passphrase = "passphrase"
+interval = 10
+[[files]]
+local_path = "/local/test"
+remote_path = "/remote/test"
+[[files]]
+local_path = "/local/test2"
+remote_path = "/remote/test2"
